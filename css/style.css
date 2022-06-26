@@ -324,7 +324,7 @@ header .social-links .fa-instagram{
 * {box-sizing:border-box}
 
 .skills .container {
-  width: 60%;
+  width: 70%;
   background-color: rgb(163, 160, 160); 
   margin: auto;
   border-radius: 20px;
@@ -502,12 +502,32 @@ header .social-links .fa-instagram{
     html{
         font-size: 50%;
     }
+    .home img{
+        width: 30%;
+        height: 20vh;
+    }
     .home .info #myname{
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .home .info h1{
-        font-size: 25px;
+        font-size: 22px;
+    }
+
+    .home .info #typedname{
+        font-size: 16px;
+    }
+
+    .skills .html,.css,.js,.android{
+        padding: 0px;
+    }
+
+    .btn{
+        padding: 8px;
+    }
+
+    .footer p{
+        font-size: 10px;
     }
  
  }
