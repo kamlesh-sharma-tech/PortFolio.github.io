@@ -189,11 +189,12 @@ header .social-links .fa-instagram{
     justify-content: space-between;
     align-items: center;
     padding:0 15rem;
+    /* background-color: rgb(168, 181, 183); */
 }
 
 .home img{
-    height:22rem;
-    width:22rem;
+    height:30rem;
+    width:30rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
@@ -217,7 +218,9 @@ header .social-links .fa-instagram{
     color:var(--orange);
     text-transform: uppercase;
 }
-
+/* .about{
+    background-color: rgb(160, 156, 238);
+} */
 .about .row{
     display: flex;
     align-items: center;
@@ -268,7 +271,9 @@ header .social-links .fa-instagram{
     font-size: 2rem;
     color:#fff;
 }
-
+/* .education{
+    background-color:burlywood;
+} */
 .education .box-container{
     display: flex;
     align-items: center;
@@ -322,7 +327,9 @@ header .social-links .fa-instagram{
 }
 
 * {box-sizing:border-box}
-
+/* .skills{
+    background-color:rgb(182, 231, 236);
+} */
 .skills .container {
   width: 70%;
   background-color: rgb(163, 160, 160); 
@@ -503,19 +510,18 @@ header .social-links .fa-instagram{
         font-size: 50%;
     }
     .home img{
-        width: 30%;
-        height: 20vh;
+        display: none;
     }
     .home .info #myname{
-        font-size: 18px;
+        font-size: 20px;
     }
 
     .home .info h1{
-        font-size: 22px;
+        font-size: 24px;
     }
 
     .home .info #typedname{
-        font-size: 16px;
+        font-size: 18px;
     }
 
     .skills .html,.css,.js,.android{
@@ -523,11 +529,19 @@ header .social-links .fa-instagram{
     }
 
     .btn{
-        padding: 8px;
+        padding: 12px;
+        width: 100%;
+        margin-top: 20px;
     }
 
     .footer p{
-        font-size: 10px;
+        font-size: 12px;
+    }
+
+    .fa-arrow-up{
+        font-size: 15px;
+        padding: 10px;
+        bottom: 60px;
     }
  
  }

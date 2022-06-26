@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
   $('#menu').click(function(){
-    $(this).toggleClass('fa-times');
+    $('#menu').toggleClass('fa-times');
     $('header').toggleClass('toggle');
   });
 
