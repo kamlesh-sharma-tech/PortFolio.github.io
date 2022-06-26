@@ -73,7 +73,7 @@ section{
     margin:0 6rem;
     font-size: 5rem;
     padding:1rem;
-    border-bottom: .1rem solid #fff4;
+    border-bottom: .2rem solid rgba(58, 55, 55, 0.267);
     color:var(--orange);
 }
 
@@ -120,7 +120,7 @@ header .user .post{
 
 header .navbar{
     width:100%;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 header .navbar ul{
@@ -146,7 +146,7 @@ header .social-links{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 45px;
+    margin: 30px;
 }
 header .social-links a{
     /* color: var(--orange); */
@@ -173,7 +173,8 @@ header .social-links .fa-instagram{
 }
 #menu{
     position: fixed;
-    top:2rem; right:2rem;
+    top:2rem; 
+    right:2rem;
     background:#333;
     color:#fff;
     cursor: pointer;
@@ -203,7 +204,10 @@ header .social-links .fa-instagram{
     font-size: 2.5rem;
     color:var(--gray);
 }
-
+.home .myname{
+    color:var(--orange);
+    text-transform: uppercase;
+}
 .home h1{
     font-size:5rem;
     color:var(--gray);
@@ -212,12 +216,6 @@ header .social-links .fa-instagram{
 .home h1 span{
     color:var(--orange);
     text-transform: uppercase;
-}
-
-.home p{
-    font-size:2rem;
-    color:var(--gray);
-    padding: 1rem 0;
 }
 
 .about .row{
@@ -323,6 +321,49 @@ header .social-links .fa-instagram{
     background:var(--orange);
 }
 
+* {box-sizing:border-box}
+
+.skills .container {
+  width: 60%;
+  background-color: rgb(163, 160, 160); 
+  margin: auto;
+  border-radius: 20px;
+}
+.skills .skillcont{
+    margin-top: 50px;
+}
+.skills h3{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.html,.css,.js,.android{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: var(--gray);
+    border-radius: 20px;
+}
+
+.html {width: 90%; background-color: var(--orange);} 
+.css {width: 80%; background-color: var(--orange);} 
+.js {width: 65%; background-color: var(--orange);} 
+.android {width: 50%; background-color: var(--orange);}
+
+.footer{
+    background-color: #2e2c2c;
+    padding: 18px;
+}
+.footer p{
+    text-align: center;
+    font-size: 18px;
+    color: #bbb4b4;
+}
+
 .portfolio .box-container{
     display: flex;
     align-items: center;
@@ -411,7 +452,7 @@ header .social-links .fa-instagram{
 
 .fa-arrow-up{
     position: fixed;
-    bottom:3rem; 
+    bottom:.8rem; 
     right: 3rem;
     z-index: 100;
     font-size: 25px;
@@ -461,6 +502,13 @@ header .social-links .fa-instagram{
     html{
         font-size: 50%;
     }
+    .home .info #myname{
+        font-size: 20px;
+    }
+
+    .home .info h1{
+        font-size: 25px;
+    }
  
  }
 
@@ -469,6 +517,8 @@ header .social-links .fa-instagram{
     header{
         width: 100vw;
     }
+
+  
 
     .heading{
         margin:0 3rem;

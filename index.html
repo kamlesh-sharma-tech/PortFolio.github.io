@@ -12,6 +12,7 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/typed.js"></script>
 
 </head>
 <body>
@@ -30,15 +31,16 @@
             <li><a href="#home">home</a></li>
             <li><a href="#about">about</a></li>
             <li><a href="#education">education</a></li>
+            <li><a href="#skills">Skills</a></li>
             <li><a href="#portfolio">Projects</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
     </nav>
 
     <div class="social-links">
-        <a href="#"<i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <a href="https://www.linkedin.com/in/kamlesh-sharma-9b695819b/"<i class="fa fa-linkedin" aria-hidden="true"></i></a>
         <a href="https://github.com/kamlesh-sharma-tech"<i class="fa fa-github" aria-hidden="true"></i></a>
-        <a href="#"<i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a href="https://www.instagram.com/kamlesh._.sharma/"<i class="fa fa-instagram" aria-hidden="true"></i></a>
     </div>
 
 </header>
@@ -50,11 +52,11 @@
 <!-- home section starts  -->
 
 <section class="home" id="home">
-
+    
     <div class="info">
-        <h3>HI THERE !</h3>
-        <h1>I AM <span>Kamlesh Sharma</span></h1>
-        <p>I'm passionate about learn new technologies..</p>
+        <h3 id="myname">HI THERE, My Name is</h3>
+        <h1 class="myname">Kamlesh Sharma</h1>
+        <h3>And I'm a <span class="element" style="color: rgb(73, 52, 182);"></span></h3>
         <a href="#about"><button class="btn">about me <i class="fa fa-user" aria-hidden="true"></i></button></a>
     </div>
   
@@ -78,7 +80,7 @@
         <h3> <span> qualification : </span> Bachelor of Technology(Pursuing)</h3>
         <h3> <span> post : </span> front end developer </h3>
         <h3> <span> language : </span> hindi </h3>
-        <a href="#"><button class="btn"> download CV <i class="fa fa-download"></i> </button></a>
+        <a href="https://drive.google.com/file/d/1Rn8SG_u6hDJWHT5r8Ffquh6ZfA_l_P5i/view"><button class="btn"> download CV <i class="fa fa-download"></i> </button></a>
     </div>
 
     <div class="counter">
@@ -135,6 +137,43 @@
 </section>
 
 <!-- education section ends -->
+
+
+<!-- skills section starts -->
+
+
+<section class="skills" id="skills">
+
+    <h1 class="heading"> my <span>skills</span> </h1>
+    
+    <div class="skillcont">
+    <h3>HTML</h3>
+    <div class="container">
+        <div class="html">90%</div>
+    </div>
+
+    <h3>CSS</h3>
+        <div class="container">
+            <div class="css">80%</div>
+        </div>
+
+    <h3>JavaScript</h3>
+        <div class="container">
+            <div class="js">65%</div>
+        </div>
+
+    <h3>Android</h3>
+        <div class="container">
+            <div class="android">50%</div>
+        </div>
+    </div>
+    
+    </section>
+    
+
+
+<!-- skills section ends -->
+
 
 <!-- portfolio section starts  -->
 
@@ -209,6 +248,11 @@
 
 <!-- contact section ends -->
 
+ <!-- FOOTER -->
+ <footer class="footer">
+    <p>Copyright &copy; 2021-2022 | PORTFOLIO . All Rights Reserved</p>
+  </footer>
+
 <!-- scroll top button  -->
 
     <a href="#home"><i class="fa fa-arrow-up" alt="Back to Top" title="Back to top" href="#home"></i>
@@ -219,6 +263,19 @@
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
+
+
+<script>
+    var typed = new Typed('.element', {
+    strings: ["STUDENT","DEVELOPER","CODER"],
+    backSpeed: 15,
+            smartBackspace: true,
+            backDelay: 1200,
+            startDelay: 1000,
+            typeSpeed: 40,
+            loop: true,
+});
+  </script>
 
 
 </body>
