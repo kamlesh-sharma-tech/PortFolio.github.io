@@ -198,7 +198,8 @@ header .social-links .fa-instagram{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    /* border:4px solid #111; */
+    border:4px solid rgb(201, 196, 196);
+    box-shadow: 0 0 10px #3c3939;
 }
 
 .home h3{
@@ -396,7 +397,7 @@ margin: auto;
 }
 
 .portfolio .box-container .box:hover img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .contact .row{
@@ -558,14 +559,14 @@ margin: auto;
 
     .portfolio .box-container .box{
         width: 70%;
-        height: 25vh;
+        height: 28vh;
     }
 
-    .fa-arrow-up{
+    /* .fa-arrow-up{
         font-size: 15px;
         padding: 10px;
         bottom: 60px;
-    }
+    } */
  
  }
 
